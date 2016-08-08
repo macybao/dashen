@@ -1,4 +1,4 @@
-
+﻿
 # Got slate magazine data from http://www.anc.org/data/oanc/contents/
 # rm'd .xml, .anc files, leaving just .txt
 # 4534 files in like 55 subdirs
@@ -22,7 +22,7 @@ impl = sys.argv[1]
 rootdir = sys.argv[2]
 files = filelist(rootdir)
 # Uncomment the next line to test just the first 100 files instead of all files
-#files = files[:100]
+# files = files[:100]
 N = len(files)
 print N, "files"
 

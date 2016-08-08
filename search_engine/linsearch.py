@@ -12,19 +12,19 @@ def linear_search(files, terms):
     Parameter terms is a list of strings.
     Perform a linear search, looking at each file one after the other.
     """
-    qualified = []
-
+    result = []
     for file in files:
-        f = open(file)
         try:
+            f = open(file)
             content = f.read()
+            all_words = words(content)
             contains = True
             for term in terms:
-                if content.find(term) == -1:
+                if term.lower() not in all_words:
                     contains = False
                     break
             if contains:
-                qualified.append(file)
+                result.append(file)
         finally:
             f.close()
-    return qualified
+    return result

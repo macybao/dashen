@@ -1,4 +1,4 @@
-
+﻿
 from htable import *
 
 
@@ -30,7 +30,7 @@ def test_a_few():
     for i in range(1, 11):
         htable_put(table, i, i)
     s = htable_str(table)
-    assert s=="{5:5, 10:10, 1:1, 6:6, 2:2, 7:7, 3:3, 8:8, 4:4, 9:9}"
+    assert s == "{5:5, 10:10, 1:1, 6:6, 2:2, 7:7, 3:3, 8:8, 4:4, 9:9}"
     s = htable_buckets_str(table)
     assert s == """0000->5:5, 10:10
 0001->1:1, 6:6
