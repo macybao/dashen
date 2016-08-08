@@ -1,7 +1,9 @@
+.cache
+__pycache__
 *.pyc
 *.7z
 
 slate
 test
-berlitz
+berlitz1
 
