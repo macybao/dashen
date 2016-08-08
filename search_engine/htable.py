@@ -1,12 +1,10 @@
-"""
+﻿"""
 A hashtable represented as a list of lists with open hashing.
 Each bucket is a list of (key,value) tuples
 """
 
 def htable(nbuckets):
     """Return a list of nbuckets lists"""
-    buckets = [[] for i in range(nbuckets)]
-    return buckets
 
 
 def hashcode(o):
@@ -15,7 +13,6 @@ def hashcode(o):
     For integers, just return the integer value.
     For strings, perform operation h = h*31 + ord(c) for all characters in the string
     """
-    h = h*31 + ord(c)
 
 
 def bucket_indexof(table, key):

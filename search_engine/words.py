@@ -32,14 +32,14 @@ def words(text):
     Ignore words < 3 char long.
     Lowercase all words
     """
-    results = []
-    p = re.compile(r'[0-9\r\t\n]')
+    result = []
+    p = re.compile(r'[' + string.punctuation + '0-9\r\t\n]')
     replaced_text = p.sub(' ', text)
     words = replaced_text.split(' ')
     for w in words:
         if len(w) >= 3:
-            results.append(w)
-    return results
+            result.append(w.lower())
+    return result
 
 
 

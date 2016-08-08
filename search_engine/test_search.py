@@ -1,9 +1,9 @@
-from index_search import index_search, create_index
+﻿from index_search import index_search, create_index
 from linsearch import linear_search
 from myhtable_search import myhtable_index_search, myhtable_create_index
 from words import filelist, words, filenames
 
-rootdir = "/Users/macy/final/data/berlitz1"
+rootdir = "/Users/parrt/github/msan501/data/berlitz1"
 
 
 def test_linear_berlitz_none():
@@ -54,7 +54,7 @@ def test_linear_berlitz():
     linear_docs = linear_search(files, terms)
 
     expected = ['HistoryHawaii.txt']
-    assert filenames(linear_docs) == expected
+    assert filenames(linear_docs)==expected
 
 def test_index_berlitz():
     terms = "hawaii travel"

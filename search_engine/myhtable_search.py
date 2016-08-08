@@ -1,4 +1,4 @@
-# Got slate magazine data from http://www.anc.org/data/oanc/contents/
+﻿# Got slate magazine data from http://www.anc.org/data/oanc/contents/
 # rm'd .xml, .anc files, leaving just .txt
 # 4534 files in like 55 subdirs
 
