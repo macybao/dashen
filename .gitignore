@@ -1,9 +1,16 @@
+/.idea
+*.iml
+test*
+
 .cache
 __pycache__
 *.pyc
 *.7z
+Rplots*
 
 slate
-test
 berlitz1
 
+.Rhistory
+*.xlsx
+*.csv
