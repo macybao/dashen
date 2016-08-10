@@ -13,10 +13,12 @@ macy.kmeans <- function(nReps, myScatterInput, myClusterNum, maxIter) {
     rows <- nrow(myScatterInput)
     cols <- ncol(myScatterInput)
 
+    matrixInput <- apply(matrix(myScatterInput), 1, function(r) {
+        return(do.call(c, r))
+    })
     sumDistance <- -1
     bestCluster <- matrix(0, nrow = rows, ncol = 2)
     bestCenters <- matrix(0, myClusterNum, cols)
-
     for (r in 1 : nReps) {
         # random row index
         set.seed(seedStart + r)
@@ -28,7 +30,7 @@ macy.kmeans <- function(nReps, myScatterInput, myClusterNum, maxIter) {
         # initial centers
         centers <- matrix(0, myClusterNum, cols)
         for (i in 1 : myClusterNum) {
-            centers[i, ] <- data[randomNum[i], ]
+            centers[i, ] <- matrixInput[randomNum[i], ]
             centers <- matrix(centers, myClusterNum, cols)
             belongCluster[randomNum[i], 1] <- i
         }
@@ -42,14 +44,15 @@ macy.kmeans <- function(nReps, myScatterInput, myClusterNum, maxIter) {
             }
             times <- times + 1
             changed <- FALSE
-
             for (i in 1 : rows) {
                 minDistance <- -1
                 previousCluster <- belongCluster[i, 1]
+                from <- matrixInput[i, ]
 
                 # find the cluster for each data belongs to
                 for (n in 1 : myClusterNum) {
-                    currentDistance <- dist(rbind(data[i, ], centers[n, ]), method = "euclidian")
+                    to <- centers[n, ]
+                    currentDistance <- sum((from - to) ^ 2)
                     if (minDistance < 0 || currentDistance < minDistance) {
                         minDistance <- currentDistance
                         belongCluster[i, 1] <- n
@@ -65,13 +68,14 @@ macy.kmeans <- function(nReps, myScatterInput, myClusterNum, maxIter) {
 
             # adjust center points
             for (m in 1 : myClusterNum) {
-                clusterMatrix <- as.matrix(data[belongCluster[, 1] == m, ])
+                clusterMatrix <- as.matrix(matrixInput[belongCluster[, 1] == m, ])
                 if (nrow(clusterMatrix) > 0) {
-                    centers[m, ] <- colMeans(clusterMatrix)
+                    centers[m, ] <- matrix(colMeans(clusterMatrix))
                 }
             }
         }
 
+        # get the best cluster
         distance <- sum(belongCluster[, 2])
         if (sumDistance < 0 || distance < sumDistance) {
             sumDistance <- distance
@@ -79,17 +83,17 @@ macy.kmeans <- function(nReps, myScatterInput, myClusterNum, maxIter) {
             bestCenters <- centers
         }
     }
-    print(sumDistance)
+
+    print(sum(sqrt(bestCluster[, 2])))
     if (cols == 2) {
-        plot(myScatterInput, col = bestCluster[, 1])
+        plot(matrixInput, col = bestCluster[, 1])
         points(bestCenters, col = 1 : myClusterNum, pch = 23, cex = 3)
     } else if (cols == 3) {
-        scatterplot3d(myScatterInput, color = bestCluster[, 1])
+        scatterplot3d(matrixInput, color = bestCluster[, 1])
     }
 }
 
-data <- read.csv("hw3data-3d.csv", header = FALSE)
-myScatterInput <- data.frame(data)
+myScatterInput <- read.csv("hw3data-3d.csv", header = FALSE)
 
 params <- read.csv("hw3param.csv", header = FALSE)
 nReps <- params[1, 1]
