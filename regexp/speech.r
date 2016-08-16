@@ -1,19 +1,40 @@
-raw_data <- readLines("/Users/Jiang/Documents/Develop/GitHub/dashen/Regular Expression/stateoftheunion1790-2012-test.txt")
-#Remove all blank lines
-raw_data <- raw_data[which(raw_data!='')]
-# Keep the speeches only
-m <- which(raw_data=='***')
-speech <- raw_data[-(1:m[1])]
+library(lubridate)
+Sys.setlocale(locale = "C")
 
-# Extract the president's name, year, month, day of month, day of week
-# Extract length of the speech(lines), number of sentences and number of words
+raw_data <- readLines("/Users/Jiang/Documents/Develop/GitHub/dashen/regexp/stateoftheunion1790-2012.txt")
+raw_data <- paste(raw_data, collapse = "\n")
+data <- strsplit(raw_data, "\\n{2}\\*{3}\\n{2}")
 
-#Split speeches
-speeches <- paste(unlist(speech),collapse = " ")
-new_speech <- strsplit(speeches,'[\\*]{3}')
-#new_speech <- gsub("[\r\n]","",new_speech)
-#str(new_speech)
-sapply(new_speech, function(x) lapply(x, function(r) {
-    print(r)
-}))
+macy.extract = function(x) {
+    x <- x[-1]
+    lapply(x, function(r) {
+        d <- strsplit(r, "\\n")
+        sapply(d, function(z) {
+            print("===")
+            name <- z[2]
+            date <- z[3]
+            print(name)
+            date <- parse_date_time(date, "%m%d%Y")
+            year <- year(date)
+            month <- month(date)
+            mday <- mday(date)
+            wday <- wday(date)
+            print(year)
+            print(month)
+            print(mday)
+            print(wday)
+            z <- z[-(1:3)]
+            z <- z[which(z!='')]
+            line <- length(z)
+            print(line)
+            speech <- paste(z, collapse = " ")
+            sentences <- sapply(gregexpr("\\.\\s", speech), length) + 1
+            words <- sapply(gregexpr("\\W+", speech), length) + 1
+            print(sentences)
+            print(words)
+            return(c(name, year, month, mday, wday, line, sentences, words))
+        })
+    })
+}
 
+result <- sapply(data, macy.extract)
