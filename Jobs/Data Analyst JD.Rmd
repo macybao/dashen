@@ -1,0 +1,31 @@
+---
+title: "Data Analyst Job Description"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Position Summary:
+As the Marketplace Data Analyst, this role will be responsible for the ownership and optimization of our Marketplace business unit. The Marketplace business at DCG is a multi-million dollar account spanning thousands of outdoor and high-end office products across several different channels, experiencing 200% growth over the last two years. Utilizing strong problem solving and excel skills, this role will learn the ins-and-outs of selling on online Marketplaces like Amazon eBay, Walmart, Jet.com, Overstock and will be integral in optimizing our current product offerings on the channel. Attention to detail & an ability to multi-task is imperative as this role will develop a long term plan to not only sure up our internal data management but enhance the front end customer buying experience across Marketplaces, and play a significant role in growing our strong Marketplace sales business. The person in this role will also be responsible for developing and analyzing weekly sales metrics & KPI’s as well as additional Ad-Hoc analysis on both the Marketplace and core (OfficeDesigns.com, OfficeDesignsOutlet.com, Sit4Life and Tallridge.com) business. This position is based out of our Northbrook IL office.
+
+### Key Responsibilities
+* Learning the nuanced details of Amazon’s Seller Central and other key Marketplace seller portals
+* Learning the nuanced details of the Channel Advisor platform
+* Identifying and implementing product data feed expansion opportunities
+* Cleaning up, maintaining & optimizing the Marketplace product data feed
+* Developing & Analyzing regular sales metrics & KPI’s
+* Communicating with Marketplace seller and ChannelAdvisor support teams to problem-solve data      issues
+* Building a product “data library”
+* Monitoring existing listings for pricing violations and unauthorized sellers
+* Identifying & executing key areas where we can improve the customer buying experience
+* Assisting in the development of sales & strategic metrics
+
+### Desired Skills & Experience
+* 1+ years of experience working in data management, analysis, or applicable school experience
+* Strong Microsoft Excel skills, with complex formulas & pivot table competence a strong plus
+* Bachelors in Business (Accounting/Finance/Marketing preferred) or Mathematics
+* Natural problem solver w/ a desire to learn
+* A strong attention to detail as problem solving regarding Marketplace product data feed’s is      often nuanced process
+* An independent worker who can learn quickly & “hit the ground running”
