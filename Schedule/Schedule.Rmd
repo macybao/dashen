@@ -1,0 +1,41 @@
+---
+title: "Schedule"
+output: pdf_document
+---
+
+```{r setup, include=TRUE,echo=FALSE,eval=TRUE,message=FALSE}
+if (!require("knitr")) {
+  install.packages("knitr") 
+  library(knitr)
+}
+
+schedule1 <- read.csv("/Users/macy/desktop/Schedule.csv",nrows = 8)
+#schedule1 <- schedule[1:9,-3]
+#schedule1[,-3]
+
+schedule2 <- read.csv("/Users/macy/desktop/Schedule.csv",skip = 10, nrows = 6)
+#schedule2 <- schedule[11:17,]
+#schedule2
+
+kable(schedule1[,-3], caption = "Daily Schedule", row.names = FALSE)
+kable(schedule2, caption = "Progress Schedule", row.names = FALSE)
+```
+
+```{r test, include=TRUE,echo=FALSE,eval=FALSE,message=FALSE}
+schedule <- read.csv("/Users/macy/desktop/Schedule.csv")
+if (!require("hwriter")) {
+  install.packages("hwriter") 
+  library(hwriter)
+}
+my.df <- data.frame(Var1=c("Apple","Orange","Banana"),
+                    Var2=c("Dog","Cat","Bunny"))
+
+tbl1 <- table(my.df$Var1,my.df$Var2)
+
+colnames(tbl1)[1] <- "Time"
+colnames(tbl1)[2] <- "Task"
+
+print(tbl1)
+```
+
+
