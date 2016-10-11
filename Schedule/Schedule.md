@@ -42,7 +42,7 @@
 <img style="-webkit-user-select: none; cursor: zoom-in;" src="https://raw.githubusercontent.com/macybao/dashen/master/Schedule/okinawa.jpg" width="672" height="448">
 
 
-
+--
 [^1]: Shower time is included in the time period between dinner and review/study time.
 [^2]: An Excel course on [Coursera](https://www.coursera.org).
 [^3]: Place on image: Japan - Okinawa
