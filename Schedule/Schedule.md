@@ -27,8 +27,13 @@
 |10/10|Mastering Data Analysis in Excel|Week 3 & 4|
 |10/11|Mastering Data Analysis in Excel|Week 5 & 6|
 |10/11|Excel|Summarize all Excel Functions|
-|10/12|R (Data Hygiene & Analysis Methods)|Review & Summarize|
-|10/13|Python (Data Hygiene & Analysis Methods)|Review & Summarize|
+|10/12|Preparing for the Interview|Review|
+|10/13|Video Interview|United Health Group|
+|10/14|Preparing software utilization examples|Excel,R,SQL|
+|10/15|R (Data Hygiene & Analysis Methods)|Review & Summarize|
+|10/16|Python (Data Hygiene & Analysis Methods)|Review & Summarize|
+|10/17|Interview Preparing|Phone interview w/ Sears|
+|10/18|Phone Interview w/ Sears|
 
 <br/>
 ```
