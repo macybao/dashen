@@ -1,4 +1,4 @@
-### **Some special symbols **
+### **Some special symbols**
 ---
 
 > n<sup>2</sup>=n+1:
@@ -40,52 +40,52 @@ Atom&reg;
 ```
 #### ***Some Examples:***
 
-1. ![example1](http://latex.codecogs.com/gif.latex?3x+5)
+1.![example1](http://latex.codecogs.com/gif.latex?3x+5)
 ```
 ![example1](http://latex.codecogs.com/gif.latex?3x+5)
 ```
 
-2. ![example2](http://latex.codecogs.com/gif.latex?3\cdot{x}+5\times{y})
+2.![example2](http://latex.codecogs.com/gif.latex?3\cdot{x}+5\times{y})
 ```
 ![example2](http://latex.codecogs.com/gif.latex?3\cdot{x}+5\times{y})
 ```
 
-3. ![example3](http://latex.codecogs.com/gif.latex?\frac{5\div3}{15})
+3.![example3](http://latex.codecogs.com/gif.latex?\frac{5\div3}{15})
 ```
 ![example3](http://latex.codecogs.com/gif.latex?\frac{5\div3}{15})
 ```
 
-4. ![example4](http://latex.codecogs.com/gif.latex?\sqrt[3]{1+\sqrt{2}})
+4.![example4](http://latex.codecogs.com/gif.latex?\sqrt[3]{1+\sqrt{2}})
 ```
 ![example4](http://latex.codecogs.com/gif.latex?\sqrt[3]{1+\sqrt{2}})
 ```
 
-5. ![example](http://latex.codecogs.com/gif.latex?\begin{align*}x&=15+(3+5)\\&=15+8\\&=23\end{align*})
+5.![example](http://latex.codecogs.com/gif.latex?\begin{align*}x&=15+(3+5)\\&=15+8\\&=23\end{align*})
 ```
 ![example](http://latex.codecogs.com/gif.latex?\begin{align*}x&=15+(3+5)\\&=15+8\\&=23\end{align*})
 ```
 
-6. ![example6](http://latex.codecogs.com/gif.latex?x_{0}^{2})
+6.![example6](http://latex.codecogs.com/gif.latex?x_{0}^{2})
 ```
 ![example6](http://latex.codecogs.com/gif.latex?x_{0}^{2})
 ```
 
-7. ![example7](http://latex.codecogs.com/gif.latex?\alpha\beta\theta\delta\pi)
+7.![example7](http://latex.codecogs.com/gif.latex?\alpha\beta\theta\delta\pi)
 ```
 ![example7](http://latex.codecogs.com/gif.latex?\alpha\beta\theta\delta\pi)
 ```
 
-8. ![example8](http://latex.codecogs.com/gif.latex?\Theta\Delta\Pi)
+8.![example8](http://latex.codecogs.com/gif.latex?\Theta\Delta\Pi)
 ```
 ![example8](http://latex.codecogs.com/gif.latex?\Theta\Delta\Pi)
 ```
 
-9. ![example9](http://latex.codecogs.com/gif.latex?\boldsymbol{XYZ}\mathbb{XYZ}\mathcal{XYZ})
+9.![example9](http://latex.codecogs.com/gif.latex?\boldsymbol{XYZ}\mathbb{XYZ}\mathcal{XYZ})
 ```
 ![example9](http://latex.codecogs.com/gif.latex?\boldsymbol{XYZ}\mathbb{XYZ}\mathcal{XYZ})
 ```
 
-*** Other special symbols ***
+***Other special symbols***
 ```
 正负号：\pm
 积分号：\int
