@@ -33,9 +33,10 @@
 |10/15|R (Data Hygiene & Analysis Methods)|Review & Summarize|
 |10/16|Python Problem Solving & Algorithm|chapter 1|
 |10/17|Interview Preparing|Phone interview w/ Sears|
-|10/18|Phone Interview w/ Sears; Python|Chapter 2 & 3|
-|10/19|Python Problem Solving & Algorithm|chapter 4 & 5|
-|10/20|Python Problem Solving & Algorithm|chapter 6 & 7|
+|10/18|Phone Interview w/ Sears|
+|10/19|Python Problem Solving & Algorithm|chapter 2 & 3|
+|10/20|Python Problem Solving & Algorithm|chapter 4 & 5|
+|10/21|Python Problem Solving & Algorithm|chapter 6 & 7|
 
 <br/>
 ```
