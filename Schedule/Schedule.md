@@ -36,8 +36,10 @@
 |10/18|Phone Interview w/ Sears|
 |10/19|Python Problem Solving & Algorithm|chapter 2|
 |10/20|Python Problem Solving & Algorithm|chapter 3|
-|10/21|Python Problem Solving & Algorithm|chapter 4 & 5|
-|10/22|Python Problem Solving & Algorithm|chapter 6 & 7|
+|10/21|Python Problem Solving & Algorithm|chapter 4|
+|10/22|Python Problem Solving & Algorithm|chapter 5|
+|10/23|Python Problem Solving & Algorithm|chapter 6|
+|10/24|Python Problem Solving & Algorithm|chapter 7|
 
 <br/>
 ```
