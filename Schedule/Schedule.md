@@ -39,12 +39,6 @@
 |10/20|Python Problem Solving & Algorithm|chapter 3|
 |10/21|Python Problem Solving & Algorithm|chapter 4|
 |10/22|Python Problem Solving & Algorithm|chapter 5|
-|10/23|...|...|
-|10/24|Lazy Day|...|
-|10/25|Lazy Day|...|
-|10/26|Lazy Day|...|
-|10/27|Lazy Day|...|
-|10/28|Lazy Day|...|
 |10/29|Python Problem Solving & Algorithm|Review|
 |10/30|Python Problem Solving & Algorithm|chapter 4|
 |10/31|Python Problem Solving & Algorithm|chapter 5|
