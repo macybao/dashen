@@ -9,8 +9,9 @@
 |Time |Task |
 |:-----|:-----|
 |8:00|Get up|
-|8:30|&#x1F34E;Breakfast|
-|9:00|&#x1F4D8;Study Time|
+|8:30|Running|
+|9:30|&#x1F34E;Breakfast|
+|10:00|&#x1F4D8;Study Time|
 |14:00|&#x1F34E;Lunch|
 |15:00|Job Seeking|
 |20:00|&#x1F34E;Dinner [^1] |
@@ -38,8 +39,22 @@
 |10/20|Python Problem Solving & Algorithm|chapter 3|
 |10/21|Python Problem Solving & Algorithm|chapter 4|
 |10/22|Python Problem Solving & Algorithm|chapter 5|
-|10/23|Python Problem Solving & Algorithm|chapter 6|
-|10/24|Python Problem Solving & Algorithm|chapter 7|
+|10/23|...|...|
+|10/24|Lazy Day|...|
+|10/25|Lazy Day|...|
+|10/26|Lazy Day|...|
+|10/27|Lazy Day|...|
+|10/28|Lazy Day|...|
+|10/29|Python Problem Solving & Algorithm|Review|
+|10/30|Python Problem Solving & Algorithm|chapter 4|
+|10/31|Python Problem Solving & Algorithm|chapter 5|
+|11/01|Python Problem Solving & Algorithm|chapter 6|
+|11/02|Python Problem Solving & Algorithm|chapter 7|
+|11/03|Thinking|Not Sure|
+|11/04|Thinking|Not Sure|
+|11/05|Thinking|Not Sure|
+|11/06|Thinking|Not Sure|
+|11/07|First Day to Work|Not Sure|
 
 <br/>
 ```
