@@ -43,11 +43,11 @@
 |10/30|Python Problem Solving & Algorithm|chapter 4|
 |10/31|Python Problem Solving & Algorithm|chapter 5|
 |11/01|Python Problem Solving & Algorithm|chapter 6|
-|11/02|Python Problem Solving & Algorithm|chapter 7|
-|11/03|Thinking|Not Sure|
-|11/04|Thinking|Not Sure|
-|11/05|Thinking|Not Sure|
-|11/06|Thinking|Not Sure|
+|11/02|Moving to Chicago|Leaving|
+|11/03|Finding Apartments|Settle Down|
+|11/04|Finding apartments/Settle down|Not Sure|
+|11/05|Preparing for work|Not Sure|
+|11/06|Preparing for work|Not Sure|
 |11/07|First Day to Work|Not Sure|
 
 <br/>
